@@ -1,0 +1,147 @@
+body,
+p {
+    margin: 0;
+}
+
+
+/* styles */
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* vending machine */
+.vending-machine { 
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    position:relative;   
+    border: 2px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.options {
+    position: relative;
+    height: 150px;
+    width: 270px;
+    /* height: 100px;
+    width: 100px; */
+}
+.options button {
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+}
+.cola {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.peanut {
+    top: 0;
+    right: 0;
+    position: absolute;
+
+}
+.chocolate {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+
+}
+.gummies {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+/* make money */
+.make-money {
+    flex: 1;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bank {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.coin-drawing {
+    margin: 2px;
+    border-radius: 50%;
+    background-color:darkgray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid gray;
+}
+
+.Penny {
+    height: 80px;
+    width: 80px;
+    background-color: peru;
+    border: 3px solid chocolate;
+}
+.Nickel {
+    height: 85px;
+    width: 85px;
+}
+.Dime {
+    height: 70px;
+    width: 70px;
+}
+.Quarter {
+    height: 100px;
+    width: 100px;
+}
+
+.light-bulb {
+    flex: 1;
+    border: 2px solid black;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* light bulb */
+
+#light {
+    width: 150px;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px;
+}
